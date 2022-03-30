@@ -24,7 +24,7 @@ steps:
   inputs:
     containerRegistry: 'dock2'
     command: 'login'
-    - task: Docker@2
+- task: Docker@2
       inputs:
         containerRegistry: 'dock2'
         repository: 'adapa158 / docker'
