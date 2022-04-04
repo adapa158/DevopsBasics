@@ -24,7 +24,6 @@ steps:
   inputs:
     Contents: '**/.war'
     TargetFolder: '$(build.artifactstagingdirectory)'
-  inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'warfile'
     publishLocation: 'Container'
